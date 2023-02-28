@@ -1,0 +1,47 @@
+html {
+    font-family: 'Times New Roman', Times, serif;
+    color: black;
+}
+
+Body {
+    background-color: rgba(82, 188, 223, 0.927);
+}
+
+.menu {
+    background-color: rgb(37, 222, 203);
+    font-size:medium;
+    font-style:initial;
+    padding-left: 0%;
+    padding-top: 0%
+    margin-left: 0%;
+
+    
+   list-style: none;
+    width: 150px;
+    Height: 150px;
+
+}
+
+h2 {
+    color: darkolivegreen 
+}
+ 
+
+.Education {
+    color:darkolivegreen;
+    font-weight: 200;
+}
+
+.image{
+    text-align: center;
+   
+    border: radius 50%;
+    ; 
+
+}
+
+article{background-color: darkcyan;}
+
+header{background-color: darkcyan;}
+
+.text{color:rgb(26, 67, 181)}
