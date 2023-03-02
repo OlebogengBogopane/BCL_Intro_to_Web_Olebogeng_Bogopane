@@ -9,14 +9,13 @@ Body {
 
 .menu {
     background-color: rgb(37, 222, 203);
-    font-size:medium;
-    font-style:initial;
+    font-style:normal;
     padding-left: 2% ;
-    padding-top: 0%;
-    padding-bottom: 0%;
+    padding-top: 5%;
+    padding-bottom: -12%;
     margin-left: 0%;
-    margin-top: 0;
-    margin-bottom: 0%;
+    margin-top: 0%;
+    
 
     
    list-style: none;
@@ -50,6 +49,7 @@ article{background-color: darkcyan;
 }
 
 header{background-color: darkcyan;
+
 }
 
 .text{color: #eee8a9;}
@@ -62,7 +62,10 @@ footer{background-color:rgb(37, 207, 207);
 margin:0% ;
 padding:3%}
 
-img{
+img{ 
     border-radius: 50%;
     border: 5px solid darkgrey
+/*make the picture round*/    
+
 }
+
