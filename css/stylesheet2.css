@@ -4,7 +4,7 @@ html {
 }
 
 Body {
-    background-color: rgba(82, 188, 223, 0.927);
+    background-color: rgba(193, 242, 45, 0.032);
 }
 
 aside {
@@ -28,8 +28,8 @@ h2 {
     border-radius: 0px;
     margin-bottom: 0%;
     
-
 }
+
 #skill1, #skill3{
     position: relative;
     left: 10px;
@@ -41,9 +41,12 @@ article{background-color: darkcyan;
     margin-top: 14.5%;
 }
 
-header{background-color: darkcyan;
 
+
+header{background-color: darkcyan;
+ background: url(../Image/IT\ background.avif);   
 }
+
 
 .text{color: #eee8a9;}
 
@@ -59,17 +62,28 @@ img{position: relative;
     right: 0px; 
     top: 20px;
     border-radius: 50%;
-    border: 5px solid darkgrey
+    border: 5px solid darkgrey;
+    text-align: center;
 /*make the picture round*/    
-
 }
 
 /*resume6*/
-#container{
-    display: flex;
-}
 
 #box1{
-   margin-top:;
+
+    margin-top:;
 
 }
+/*
+.hero{
+    background-image: linear-gradient(rgba(0,0,0,0.5)
+    rgba(0,0,0,0.5));
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 80%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+*/
