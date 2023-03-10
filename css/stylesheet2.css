@@ -8,82 +8,251 @@ Body {
 }
 
 aside {
-    background-color: rgb(37, 222, 203);
-   
+    position: sticky;
+    background-color: rgba(37, 204, 222, 0.252);
+
 }
 
 h2 {
-    color: darkolivegreen 
+    color: darkolivegreen
 }
- 
+
 .Education {
-    color:darkolivegreen;
+    color: darkolivegreen;
     font-weight: 200;
 }
 
-.image{
+.image {
     text-align: center;
     border-style: solid;
     border-color: darkgrey;
     border-radius: 0px;
     margin-bottom: 0%;
-    
+
 }
 
-#skill1, #skill3{
+#skill1,
+#skill3 {
     position: relative;
     left: 10px;
     background-color: rgb(37, 207, 207);
     margin-right: 75%
 }
-article{background-color: darkcyan;
+
+article {
+    background-color: rgba(0, 139, 139, 0.192);
     padding: 5% 5% 5% 5%;
     margin-top: 14.5%;
 }
 
 
 
-header{background-color: darkcyan;
- background: url(../Image/IT\ background.avif);   
+header {
+    background-color: darkcyan;
+    background: url(../Image/IT\ background.avif);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    justify-content: center;
+
+
+}
+
+.menu {
+    position: sticky;
+    top: 0;
+    z-index: 1;
+    padding: 1%;
+    background-color: rgba(128, 128, 128, 0.588);
+    text-transform: uppercase;
+
+}
+
+.hero1 {
+    background-color: rgba(0, 0, 0, 0.53);
+    color: azure;
 }
 
 
-.text{color: #eee8a9;}
 
-body{background-color:rgba(170, 182, 185, 0.937);
+/*.text{color: #1b1b1a;} */
+
+body {
+    background-color: rgba(170, 182, 185, 0.937);
     margin: 5px;
-padding: 10px;}
+    padding: 10px;
+}
 
-footer{background-color:rgb(37, 207, 207);
-margin:0% ;
-padding:3%}
+footer {
+    background-color: rgba(37, 207, 207, 0.221);
+    margin: 0%;
+    padding: 2%
+}
 
-img{position: relative;
-    right: 0px; 
+img {
+
+  position: relative;
+    right: 0px;
     top: 20px;
     border-radius: 50%;
     border: 5px solid darkgrey;
     text-align: center;
-/*make the picture round*/    
+    /*make the picture round*/
+    
 }
 
 /*resume6*/
 
-#box1{
+#box1 {
 
-    margin-top:;
+    margin-top: ;
 
 }
-/*
-.hero{
-    background-image: linear-gradient(rgba(0,0,0,0.5)
-    rgba(0,0,0,0.5));
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-    height: 80%;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
-*/
+
+
+@media(min-width:500px) {
+    body {
+        background: hsla(164, 73%, 51%, 0.226);
+        
+    }
+
+    .text {
+        color: rgba(22, 144, 120, 0.852)
+    }
+
+
+
+    img {
+        width:20%
+        height: auto;
+    }
+
+    footer {
+        background-color: rgba(30, 31, 30, 0.573);
+        margin: 0%;
+        padding: 3%;}
+
+        .menu {
+            position: sticky;
+            top: 0;
+            z-index: 1;
+            padding: 1%;
+            background-color: rgba(128, 128, 128, 0.588);
+            text-transform: uppercase;
+        
+        }
+        .menu:hover{background-color: rgba(67, 67, 68, 0.822);
+           
+        }
+        .menu::before{
+            content:"";
+            Position:absolute;
+            width:100%;
+            background:rgb(42, 154, 223) ;
+            z-index: -1;
+        }
+        .hero1{text-transform:capitalize;
+            
+
+        }
+        .menu2{text-transform: uppercase;
+        font-weight: bold;}
+
+        }
+
+
+        @media(min-width:800px) {
+            body {
+                background: hsla(71, 76%, 52%, 0.16);
+                
+            }
+        
+            .text {
+                color: rgba(30, 30, 240, 0.852)
+            }
+        
+        
+        
+            img {
+                width: 20%;
+                height:auto
+            }
+        
+            footer {
+                background-color: rgba(31, 191, 235, 0.573);
+                margin: 0%;
+                padding: 3%;}
+        
+                .menu {
+                    position: sticky;
+                    top: 0;
+                    z-index: 1;
+                    padding: 1%;
+                    background-color: rgba(128, 128, 128, 0.588);
+                    text-transform: uppercase;
+                
+                }
+                .menu:hover{background-color: rgba(67, 67, 68, 0.822);
+                   
+                }
+                .menu::before{
+                    content:"";
+                    Position:absolute;
+                    width:100%;
+                    background:rgb(42, 154, 223) ;
+                    z-index: -1;
+                }
+                .hero1{text-transform:capitalize;
+                    
+                }
+                .menu2{text-transform: uppercase;
+                font-weight: bold;}
+        
+                }
+
+                @media(min-width:1024px) {
+                    body {
+                        background: hsla(71, 76%, 52%, 0.16);
+                        
+                    }
+                
+                    .text {
+                        color: rgba(81, 81, 81, 0.852)
+                    }
+                
+                    img {
+                        width: 20%;
+                        height:auto
+                    }
+                
+                    footer {
+                        background-color: rgba(136, 143, 151, 0.573);
+                        margin: 0%;
+                        padding: 3%;}
+                
+                        .menu {
+                            position: sticky;
+                            top: 0;
+                            z-index: 1;
+                            padding: 1%;
+                            background-color: rgba(128, 128, 128, 0.588);
+                            text-transform: uppercase;
+                        
+                        }
+                        .menu:hover{background-color: rgba(67, 67, 68, 0.822);
+                           
+                        }
+                        .menu::before{
+                            content:"";
+                            Position:absolute;
+                            width:100%;
+                            background:rgb(42, 154, 223) ;
+                            z-index: -1;
+                        }
+                        .hero1{text-transform:capitalize;
+                            
+                        }
+                        .menu2{text-transform: uppercase;
+                        font-weight: bold;}
+                }
+                
